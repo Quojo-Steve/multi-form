@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
     <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -50,17 +51,17 @@
         </div>
         <div class="form-outer">
             <form action="#">
-                <div class="page">
+                <div class="page slidepage">
                     <div class="title">Basic Info:</div>
                     <div class="field">
                         <div class="label">First Name</div>
-                        <input type="text">
+                        <input type="text" required>
                     </div>
                     <div class="field">
                         <div class="label">Last Name</div>
                         <input type="text">
                     </div>
-                    <div class="field">
+                    <div class="field nextBtn">
                         <button>Next</button>
                     </div>
                 </div>
@@ -69,7 +70,7 @@
                     <div class="title">Contact Info:</div>
                     <div class="field">
                         <div class="label">Email Address</div>
-                        <input type="text">
+                        <input type="email">
                     </div>
                     <div class="field">
                         <div class="label">Phone Number</div>
